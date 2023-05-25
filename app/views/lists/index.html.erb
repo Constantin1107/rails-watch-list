@@ -1,0 +1,21 @@
+<div id="picture_card" class="card">
+</div>
+<div class="row">
+  <div class="col-4">
+    <div id="card_background" class="card">
+      <%= link_to 'Create a new list', new_list_path, id: "create_button" %>
+    </div>
+  </div>
+  <div class="col-8">
+    <div id="card_background" class="card">
+      <div id="list" class="p-3 mx-auto">
+        <h1 id="header">All lists</h1>
+        <ul>
+          <% @lists.each do |list| %>
+            <li><%= link_to list.name, list_path(list.id) %></li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+#picture_card{
+  background-image: url("https://news.northeastern.edu/wp-content/uploads/2022/05/movie_theater_1400.jpg");
+  height: 500px;
+  width: 100%;
+}
+
+#card_background {
+  background-color: rgb(246, 219, 113);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+
+  #header {
+    color: rgb(62, 59, 51);
+    margin-bottom: 25px;
+  }
+
+}
+
+a#create_button{
+  text-decoration: none;
+  background-color: rgb(27, 227, 40);
+  color: black;
+  padding: 10px;
+  border-radius: 7px;
+  margin: 10px;
+}
+
+li{
+  padding: 10px;
+
+  a{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+  }
+}
+
+ul{
+  margin-top: 25px;
+}
