@@ -1,8 +1,10 @@
-<div class="bookmark_card">
-  <h1>Create a new bookmark</h1>
-  <%= simple_form_for [@list, @bookmark] do |f| %>
-    <%= f.input :comment %>
-    <%= f.association :movie, as: :radio_buttons %>
-    <%= f.submit %>
-  <% end %>
+<div class="card_bookmark">
+  <div>
+    <h1>Create a new bookmark</h1>
+    <%= simple_form_for [@list, @bookmark] do |f| %>
+      <%= f.input :comment %>
+      <%= f.association :movie, as: :radio_buttons %>
+      <%= f.submit %>
+    <% end %>
+  </div>
 </div>
