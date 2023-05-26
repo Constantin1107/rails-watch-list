@@ -1,0 +1,20 @@
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.usatoday.com/gcdn/presto/2019/09/26/USAT/4f2f6442-d1b9-4937-b268-39e0b1f70f52-rev-1-JOK-14466_High_Res_JPEG.jpeg");
+  height: 700px;
+  background-size: cover;
+}
+
+#input_field{
+  padding: 30px;
+  border-width: 3px;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  background-color: rgb(92, 86, 86);
+  color: rgb(232, 56, 56);
+
+  input{
+    background-color: rgb(232, 56, 56);
+  }
+}

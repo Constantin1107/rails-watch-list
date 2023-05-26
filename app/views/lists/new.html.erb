@@ -1,8 +1,12 @@
-<div class="m-5">
-  <h1>Create a new list</h1>
-  <%= form_with model: @list do |f| %>
-    <%= f.label :name %>
-    <%= f.text_field :name %>
-    <%= f.submit %>
-  <% end %>
+<div class="main-container">
+  <div class="card" id="input_field">
+    <div class="mx-auto my-5">
+      <h1>Create a new list</h1>
+      <%= form_with model: @list do |f| %>
+        <%= f.label :name %>
+        <%= f.text_field :name %>
+        <%= f.submit %>
+      <% end %>
+    </div>
+  </div>
 </div>
